@@ -18,7 +18,7 @@ function Home(props) {
                         <h1>Dogs</h1>
                     </a>
                     <a className="aboutSelector cons1" href="/about">
-                        <h1>ABOUT US</h1>
+                        <h1>ABOUT</h1>
                     </a>
                     <a href="contact" className="location consTitle">
                         <h1>LOCATION</h1>

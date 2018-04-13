@@ -81,7 +81,7 @@
     .aboutSelector {
         grid-area: a;
         /* background-image: url("../../images/story.JPG"); */
-        /* background-image: url("../../images/doberman_puppies.jpg"); */
+        background-image: url("../../images/8.jpg");
     }
     .location {
         grid-area: l;
@@ -176,7 +176,7 @@
     }
     .aboutSelector {
         grid-area: a;
-        /* background-image: url("../../images/story.JPG"); */
+        background-image: url("../../images/8.jpg");
     }
     .location {
         grid-area: l;
