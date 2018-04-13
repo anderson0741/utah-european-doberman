@@ -1,9 +1,16 @@
-.theAbout{
+.theAboutWrapper{
     background-color: white;
     border: solid 1px gray;
     border-radius: 3px;
     padding: 15px 15px;
     box-shadow: 2px 2px 12px black;
+    margin-top: 10vh;
+}
+
+.theAboutTitle{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .aboutPic {
