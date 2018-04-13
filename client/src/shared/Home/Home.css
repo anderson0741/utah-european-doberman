@@ -1,0 +1,186 @@
+@media(min-width: 862px) {
+    body {
+        background-image: url('../../images/doberman_background.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+    .tag {
+        border: white 5px solid;
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .welcome_level {
+        height: 500px;
+        width: 1300px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 35px;
+        text-shadow: 3px 3px black;
+        color: white;
+    }
+    .welcome_level_mobile {
+        display: none;
+    }
+    .homeDivBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .selector {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 400px 200px;
+        grid-gap: 50px;
+        grid-template-areas: "s a" "l l";
+    }
+    .homeBox {
+        border: solid black 2px;
+        box-shadow: 3px 3px 7px black;
+        border-radius: 3px;
+    }
+    .cons1 {
+        border: solid black 2px;
+        box-shadow: 3px 3px 7px black;
+        border-radius: 3px;
+        /* background-size: 400px; */
+        background-size: cover;
+        background-position-x: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+    }
+    .consTitle {
+        border: solid black 2px;
+        box-shadow: 3px 3px 7px black;
+        border-radius: 3px;
+        /* background-size: 400px; */
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 1920px 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+    }
+    .shopCars {
+        grid-area: s;
+        /* background-image: url('../../images/jeeps.jpg'); */
+        background-image: url("../../images/burnout.gif");
+    }
+    .aboutSelector {
+        grid-area: a;
+        background-image: url("../../images/story.JPG");
+        /* background-image: url("../../images/burnout.gif"); */
+    }
+    .location {
+        grid-area: l;
+        background-image: url('../../images/location_.JPG');
+    }
+    .otherFuture {
+        grid-area: of;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+    }
+}
+/*  */
+@media(max-width: 861px) {
+    body {
+        background-image: url('../../images/jeep_background.jpg');
+        background-position-x: -392px;
+        background-position-y: 25px;
+        background-attachment: scroll;
+        background-repeat: repeat-y;
+        background-size: 1200px 600px;
+    }
+    .welcome_level {
+        display: none;
+    }
+    .welcome_level_mobile{
+        /* height: 5vh; */
+        /* width: 15vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-shadow: 3px 3px black;
+        color: white;
+        margin-top: 25vh;
+        margin-bottom: 35vh;
+
+    }
+    .homeDivBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .selector {
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 300px 100px;
+        grid-gap: 50px;
+        grid-template-areas: "s" "a" "l";
+    }
+    .cons1 {
+        border: solid black 2px;
+        box-shadow: 3px 3px 7px black;
+        border-radius: 3px;
+        /* background-size: 400px; */
+        background-size: cover;
+        background-position-x: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+    }
+    .consTitle {
+        border: solid black 2px;
+        box-shadow: 3px 3px 7px black;
+        border-radius: 3px;
+        background-position: center;
+        /* background-attachment: scroll; */
+        background-repeat: no-repeat;
+        background-size: 1920px 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        text-shadow: 3px 3px 12px black;
+    }
+    .shopCars {
+        grid-area: s;
+        /* background-image: url('../../images/jeeps.jpg'); */
+        background-image: url("../../images/burnout.gif");
+    }
+    .aboutSelector {
+        grid-area: a;
+        background-image: url("../../images/story.JPG");
+    }
+    .location {
+        grid-area: l;
+        background-image: url('../../images/location_.JPG');
+        margin-bottom: 5vh;
+    }
+}
