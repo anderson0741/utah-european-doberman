@@ -80,7 +80,7 @@
     }
     .aboutSelector {
         grid-area: a;
-        background-image: url("../../images/story.JPG");
+        /* background-image: url("../../images/story.JPG"); */
         /* background-image: url("../../images/doberman_puppies.jpg"); */
     }
     .location {
@@ -101,7 +101,7 @@
 /*  */
 @media(max-width: 861px) {
     body {
-        background-image: url('../../images/jeep_background.jpg');
+        /* background-image: url('../../images/jeep_background.jpg'); */
         background-position-x: -392px;
         background-position-y: 25px;
         background-attachment: scroll;
@@ -176,7 +176,7 @@
     }
     .aboutSelector {
         grid-area: a;
-        background-image: url("../../images/story.JPG");
+        /* background-image: url("../../images/story.JPG"); */
     }
     .location {
         grid-area: l;
