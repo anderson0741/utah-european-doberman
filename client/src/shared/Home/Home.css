@@ -76,12 +76,12 @@
     .shopCars {
         grid-area: s;
         /* background-image: url('../../images/jeeps.jpg'); */
-        background-image: url("../../images/burnout.gif");
+        background-image: url("../../images/doberman_puppies.jpg");
     }
     .aboutSelector {
         grid-area: a;
         background-image: url("../../images/story.JPG");
-        /* background-image: url("../../images/burnout.gif"); */
+        /* background-image: url("../../images/doberman_puppies.jpg"); */
     }
     .location {
         grid-area: l;
@@ -172,7 +172,7 @@
     .shopCars {
         grid-area: s;
         /* background-image: url('../../images/jeeps.jpg'); */
-        background-image: url("../../images/burnout.gif");
+        background-image: url("../../images/doberman_puppies.jpg");
     }
     .aboutSelector {
         grid-area: a;
