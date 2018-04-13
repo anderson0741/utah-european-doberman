@@ -15,7 +15,7 @@ function Home(props) {
                 </div>
                 <div className="selector">
                     <a href="cars" className="shopCars cons1">
-                        <h1>SHOP CARS</h1>
+                        <h1>Dogs</h1>
                     </a>
                     <a className="aboutSelector cons1" href="/about">
                         <h1>ABOUT US</h1>
