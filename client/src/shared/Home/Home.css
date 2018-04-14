@@ -18,10 +18,11 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         font-weight: bold;
-        font-size: 100px;
+        font-size: 70px;
         font-family: arial, helvetica;
-        /* width: 600px; */
+        width: 870px;
         margin: 50px auto;
+        margin-bottom: 35vh;
         text-align: center;
     }
     .tag {
