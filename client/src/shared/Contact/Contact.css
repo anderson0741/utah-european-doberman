@@ -1,26 +1,47 @@
 .addresses{
+    /* margin-top: 10vh; */
+    margin: auto;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border: solid black 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px rgb(49, 49, 49);
+    width: 600px;
 }
 
-/* .infoSurvey{
+.optionSurvey{
     display: flex;
     flex-direction: column;
     justify-content: space-between
-} */
+}
 
 .deets{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255, 0.8);
-    width: 600px;
-    padding: 25px 0px; 
-    border: solid black 1px;
-    border-radius: 3px;
-    box-shadow: 3px 3px 15px gray;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: rgb(255, 255, 255, 0.8); */
+    /* width: 600px; */
+    /* margin-left: 50vw;  */
+    /* border: solid black 1px; */
+    /* border-radius: 3px; */
+    /* box-shadow: 3px 3px 15px gray; */
+}
+
+.detailSurvey{
+    align-self: center;
+}
+
+.surveyTitle{
+    border-bottom: solid black 1px;
+    width: 100%
+}
+
+.submitSurvey{
+    align-self: center;
 }

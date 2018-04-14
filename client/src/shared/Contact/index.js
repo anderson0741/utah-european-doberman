@@ -5,10 +5,11 @@ function Contact() {
     return (
         <div class="addresses">
             <div className="deets">
-                <h3>Email: Europeandobes@gmail.com</h3>
-                <h3>Tel: 555-555-5555</h3>
-                {/* </div>
-            <div className="survey"> */}
+                <div className="surveyTitle">
+                    <h1 className='detailSurvey'>Reserve your European Doberman</h1>
+                    <p className='detailSurvey'>Dogs are 2,000 - 3,200 based on options selected. </p>
+                    <h3 className='detailSurvey'>Email: Europeandobes@gmail.com</h3>
+                </div>
                 <div className="infoSurvey">
                     <h3 className="surveyInputs">Email:</h3>
                     <input type="text" placeholder='Email' />
@@ -26,22 +27,28 @@ function Contact() {
                     <label htmlFor=""><input type="radio" name="contactInfo" value="Social Media" /> Social Media</label>
                 </div>
                 <div className="genderSurvey">
-                <h3 className="surveyInputs">Preferred Gender:</h3>
+                    <h3 className="surveyInputs">Preferred Gender:</h3>
                     <label htmlFor=""><input type="checkbox" name="contactInfo" value="Male" /> Male</label>
                     <label htmlFor=""><input type="checkbox" name="contactInfo" value="Female" /> Female</label>
                     <label htmlFor=""><input type="checkbox" name="contactInfo" value="none" /> No Preference</label>
                 </div>
                 <div className="breedSurvey">
-                <h3 className="surveyInputs">Do you plan to breed:</h3>
+                    <h3 className="surveyInputs">Do you plan to breed:</h3>
                     <label htmlFor=""><input type="radio" name="contactInfo" value="Yes" /> Yes</label>
                     <label htmlFor=""><input type="radio" name="contactInfo" value="No" /> No</label>
                 </div>
                 <div className="appearanceSurvey">
-                <h3 className="surveyInputs">Preference on appearance:</h3>
-                    <label htmlFor=""><input type="checkbox" name="contactInfo" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
-                    <label htmlFor=""><input type="checkbox" name="contactInfo" value="Tail" /> Tail Docked</label>
+                    <h3 className="surveyInputs">Preference on appearance:</h3>
+                    <div className="optionSurvey">
+                        <label htmlFor=""><input type="checkbox" name="contactInfo" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
+                        <label htmlFor=""><input type="checkbox" name="contactInfo" value="Tail" /> Tail Docked</label>
+                    </div>
                 </div>
-                <input className="submit" type="submit" value="Submit" />
+                <br/>
+                <div className="submitSurvey">
+                    <input className="submit" type="submit" value="Submit" />
+                </div>
+                <br/>
             </div>
             {/* <button className="submit" onClick={this.props.toggleEdit}>Cancel</button> */}
         </div>
