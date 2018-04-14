@@ -15,13 +15,14 @@ class Nav extends Component {
             <div className="outerNavDiv" >
                 <div className="navBod">
                     <img className='imgs' src={images} alt="" />
+                    <h1 className='NavTitle'>Utah European Doberman</h1>
                     <div className="menuOptions">
                         <div className="navBod_nav guest">
                             <button className="dropbtn">Menu</button>
                             <div className="nav_dropdwn">
                                 <a className='links' href="/">Home</a>
                                 <a className='links' href="/about">About</a>
-                                <a className='links' href="/cars">Shop Cars</a>
+                                <a className='links' href="/cars">Dogs</a>
                                 <a className='links' href="/contact">Contact Us</a>
                             </div>
                         </div>

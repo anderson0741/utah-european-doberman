@@ -8,7 +8,7 @@
         background-size: cover;
     }
     .knockout {
-        background: url('../../images/12.jpg');
+        background: url('../../images/_downloadfiles_wallpapers_1280_1024_hay_field_wallpaper_landscape_nature_1357.jpg');
         background-position: center;
         background-attachment: fixed;
         background-repeat: repeat-y;
@@ -26,6 +26,7 @@
     }
     .tag {
         border: white 5px solid;
+        /* border: black 5px solid; */
         /* box-shadow: 3px 3px 3px 3px black; */
     }
     .welcome_level {
@@ -121,7 +122,7 @@
 
 @media(max-width: 861px) {
     body {
-        /* background-image: url('../../images/jeep_background.jpg'); */
+        background-image: url('../../images/5.jpg');
         background-position-x: -392px;
         background-position-y: 25px;
         background-attachment: scroll;
@@ -130,6 +131,23 @@
     }
     .welcome_level {
         display: none;
+    }
+    .knockout {
+        background: url('../../images/12.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: repeat-y;
+        background-size: cover;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        color: red;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: arial, helvetica;
+        /* width: 600px; */
+        margin: 50px auto;
+        text-align: center;
     }
     .welcome_level_mobile {
         /* height: 5vh; */

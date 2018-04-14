@@ -97,6 +97,9 @@
         box-shadow: 4px 3px 13px black;
         z-index: 3;
     }
+    .NavTitle{
+        display: none;
+    }
     .dropbtn {
         background-color: rgb(236, 78, 92);
         color: white;
