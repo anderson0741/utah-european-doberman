@@ -29,20 +29,20 @@ function Contact() {
                     </div>
                     <div className="genderSurvey">
                         <h3 className="surveyInputs">Preferred Gender:</h3>
-                        <label htmlFor=""><input type="checkbox" name="contactInfo" value="Male" /> Male</label>
-                        <label htmlFor=""><input type="checkbox" name="contactInfo" value="Female" /> Female</label>
-                        <label htmlFor=""><input type="checkbox" name="contactInfo" value="none" /> No Preference</label>
+                        <label htmlFor=""><input type="checkbox" name="gender" value="Male" /> Male</label>
+                        <label htmlFor=""><input type="checkbox" name="gender" value="Female" /> Female</label>
+                        <label htmlFor=""><input type="checkbox" name="gender" value="none" /> No Preference</label>
                     </div>
                     <div className="breedSurvey">
                         <h3 className="surveyInputs">Do you plan to breed:</h3>
-                        <label htmlFor=""><input type="radio" name="contactInfo" value="Yes" /> Yes</label>
-                        <label htmlFor=""><input type="radio" name="contactInfo" value="No" /> No</label>
+                        <label htmlFor=""><input type="radio" name="breed" value="Yes" /> Yes</label>
+                        <label htmlFor=""><input type="radio" name="breed" value="No" /> No</label>
                     </div>
                     <div className="appearanceSurvey">
                         <h3 className="surveyInputs">Preference on appearance:</h3>
                         <div className="optionSurvey">
-                            <label htmlFor=""><input type="checkbox" name="contactInfo" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
-                            <label htmlFor=""><input type="checkbox" name="contactInfo" value="Tail" /> Tail Docked</label>
+                            <label htmlFor=""><input type="checkbox" name="preference" value="Ears" /> Ears cropped (dogs ears are cropped 9-12 weeks old)</label>
+                            <label htmlFor=""><input type="checkbox" name="preference" value="Tail" /> Tail Docked</label>
                         </div>
                     </div>
                     <br />
