@@ -1,10 +1,28 @@
 @media(min-width: 862px) {
     body {
-        background-image: url('../../images/doberman_background.jpg');
+        /* background-image: url('../../images/doberman_background.jpg'); */
+        background-image: url('../../images/5.jpg');
         background-position: center;
         background-attachment: fixed;
         background-repeat: repeat-y;
         background-size: cover;
+    }
+    .knockout {
+        background: url('../../images/12.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: repeat-y;
+        background-size: cover;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        color: red;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: bold;
+        font-size: 100px;
+        font-family: arial, helvetica;
+        /* width: 600px; */
+        margin: 50px auto;
+        text-align: center;
     }
     .tag {
         border: white 5px solid;
@@ -98,7 +116,9 @@
         text-shadow: 3px 3px 12px black;
     }
 }
+
 /*  */
+
 @media(max-width: 861px) {
     body {
         /* background-image: url('../../images/jeep_background.jpg'); */
@@ -111,7 +131,7 @@
     .welcome_level {
         display: none;
     }
-    .welcome_level_mobile{
+    .welcome_level_mobile {
         /* height: 5vh; */
         /* width: 15vw; */
         display: flex;
@@ -123,7 +143,6 @@
         color: white;
         margin-top: 25vh;
         margin-bottom: 35vh;
-
     }
     .homeDivBox {
         display: flex;
