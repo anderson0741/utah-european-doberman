@@ -6,15 +6,11 @@
     padding-top: 60px;
 }
 
-.embbAddress {
-    width: 600px;
-    height: 450px;
-    /* frameborder: 0; */
-    border: 0;
-    border-radius: 3px;
-    box-shadow: 3px 3px 15px gray;
-    /* allowfullscreen: truel; */
-}
+/* .infoSurvey{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+} */
 
 .deets{
     display: flex;
