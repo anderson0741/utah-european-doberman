@@ -25,16 +25,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* background-color: rgb(255, 255, 255, 0.8); */
-    /* width: 600px; */
-    /* margin-left: 50vw;  */
-    /* border: solid black 1px; */
-    /* border-radius: 3px; */
-    /* box-shadow: 3px 3px 15px gray; */
 }
 
 .detailSurvey{
     align-self: center;
+    text-align: center;
 }
 
 .surveyTitle{
