@@ -13,7 +13,7 @@ class Nav extends Component {
         const isAuthenticated = this.props.isAuthenticated;
         return (
             <div className="outerNavDiv" >
-                <div className="navBod">
+                {/* <div className="navBod">
                     <img className='imgs' src={images} alt="" />
                     <h1 className='NavTitle'>Utah European Doberman</h1>
                     <div className="menuOptions">
@@ -35,6 +35,13 @@ class Nav extends Component {
                             </div>
                         </div> : null}
                     </div>
+                </div> */}
+                <div className="navSet">
+                    <a className='linkz' href="/">Home</a>
+                    <a className='linkz' href="/about">About</a>
+                    <a className='linkz' href="/dogs">Dogs</a>
+                    <a className='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
+                    <a className='linkz' href="/contact">Contact Us</a>
                 </div>
             </div>
         )

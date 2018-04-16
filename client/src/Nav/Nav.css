@@ -1,4 +1,4 @@
-@media (min-width: 787px) {
+/* @media (min-width: 787px) {
     .outerNavDiv {
         display: flex;
         justify-content: center;
@@ -19,7 +19,6 @@
         border: black 1px solid;
         padding-left: 10px;
         padding-right: 10px;
-        /* text-shadow: 2px 2px black; */
         box-shadow: 4px 3px 13px black;
         z-index: 3;
     }
@@ -85,7 +84,6 @@
         border: 5px gray solid;
         border-radius: 4px;
         height: 65px;
-        /* width: 100%; */
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -93,7 +91,6 @@
         border: black 1px solid;
         padding-left: 10px;
         padding-right: 10px;
-        /* text-shadow: 2px 2px black; */
         box-shadow: 4px 3px 13px black;
         z-index: 3;
     }
@@ -147,4 +144,21 @@
         font-size: 100%;
         opacity: 0.9;
     }
+} */
+
+.navSet{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+.linkz{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+.linkz:hover{
+    margin-left: 15px;
+    text-decoration: none;
+    color: red;
 }

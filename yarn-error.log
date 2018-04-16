@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install react-scroll-parallax
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "utah-european-doberman",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+      "dotenv": "^5.0.1",
+      "express": "^4.16.3",
+      "express-jwt": "^5.3.1",
+      "mongoose": "^5.0.14",
+      "morgan": "^1.9.0",
+      "path": "^0.12.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node server.js",
+      "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    },
+    "engines": {
+      "node": "9.9.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anderson0741/utah-european-doberman.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/anderson0741/utah-european-doberman/issues"
+    },
+    "homepage": "https://github.com/anderson0741/utah-european-doberman#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add react-scroll-parallax" instead.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
