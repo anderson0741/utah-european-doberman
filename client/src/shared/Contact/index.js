@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact() {
     return (
         <div class="addresses">
-            <form name="contact" method="POST">
+            {/* <form name="contact" method="POST">
                 <div className="deets">
                     <div className="surveyTitle">
                         <h1 className='detailSurvey'>Reserve your European Doberman</h1>
@@ -51,7 +51,7 @@ function Contact() {
                     </div>
                     <br />
                 </div>
-            </form>
+            </form> */}
             {/* <button className="submit" onClick={this.props.toggleEdit}>Cancel</button> */}
         </div>
     )

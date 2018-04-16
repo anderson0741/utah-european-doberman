@@ -23,7 +23,7 @@ function App(props) {
                 <Switch>
                     <Route exact path='/' component={Home} />
                     <Route exact path='/about' component={About} />
-                    <Route exact path='/cars' component={Shop} />
+                    <Route exact path='/dogs' component={Shop} />
                     <Route path='/upload' component={Content} />
                     {/* <Route path='/image' component={Upload} /> */}
                     <Route path='/contact' component={Contact} />

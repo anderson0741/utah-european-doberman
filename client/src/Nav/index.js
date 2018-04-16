@@ -22,7 +22,8 @@ class Nav extends Component {
                             <div className="nav_dropdwn">
                                 <a className='links' href="/">Home</a>
                                 <a className='links' href="/about">About</a>
-                                <a className='links' href="/cars">Dogs</a>
+                                <a className='links' href="/dogs">Dogs</a>
+                                <a className='links' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
                                 <a className='links' href="/contact">Contact Us</a>
                             </div>
                         </div>
