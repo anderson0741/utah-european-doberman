@@ -6,48 +6,22 @@ import Contact from '../shared/Contact/index';
 import Shop from '../shared/Shop/index';
 import Content from '../shared/Content/Content';
 import Nav from '../Nav';
+// import Nav2 from '../Nav/Nav2'
 import Footer from '../Footer/Footer';
 import Login from '../shared/Login';
 import SignUp from '../shared/SignUp';
-// import Menu from '../Nav/Menu';
-// import MenuItem from '../Nav/MenuItem';
 import './App.css';
 
 
 class App extends Component {
-    // constructor(props) {
-    //     this.showLeft = this.showLeft.bind(this);
-    //     this.showRight = this.showRight.bind(this);
-    // }
-    showLeft() {
-        this.refs.left.show();
-    }
-
-    showRight() {
-        this.refs.right.show();
-    }
-
     render() {
         return (
             <div className="appStructure">
                 <div className="appNav">
                     <Nav />
-                    {/* <button onClick={this.showLeft}>Show Left Menu!</button>
-                    <button onClick={this.showRight}>Show Right Menu!</button>
-                    <Menu ref="left" alignment="left">
-                        <MenuItem hash="first-page">First Page</MenuItem>
-                        <MenuItem hash="second-page">Second Page</MenuItem>
-                        <MenuItem hash="third-page">Third Page</MenuItem>
-                    </Menu>
-
-                    <Menu ref="right" alignment="right">
-                        <MenuItem hash="first-page">First Page</MenuItem>
-                        <MenuItem hash="second-page">Second Page</MenuItem>
-                        <MenuItem hash="third-page">Third Page</MenuItem>
-                    </Menu> */}
+                    {/* <Nav2/> */}
                 </div>
-            {/* </div> */}
-            {/* <br /> */}
+            <br />
             <div className="switchContent">
                 <Switch>
                     <Route exact path='/' component={Home} />
