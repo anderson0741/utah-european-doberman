@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GuestListing from './GuestListing';
+import loading from '../../../../images/loading.gif'
 
 export default class GuestDisplay extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class GuestDisplay extends Component {
         return (
             loading ?
                 <div>
-                    loading
+                    {loading}
                 </div>
                 :
                 <div>
