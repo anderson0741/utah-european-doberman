@@ -10,7 +10,7 @@ export default class GuestDisplay extends Component {
             loading ?
                 <div className="loadingscene">
                     {/* {loading} */}
-                    {/* loading */}
+                    Loading...
                     {/* <img src={loading} alt="loading"/> */}
                 </div>
                 :

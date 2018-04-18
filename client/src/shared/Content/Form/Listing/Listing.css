@@ -117,8 +117,9 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 45vh;
-        /* width: 200px; */
-        /* background-size: auto */
+        color: white;
+        font-size: 3vh;
+        text-shadow: 3px 3px 3px black;
     }
 }
 
