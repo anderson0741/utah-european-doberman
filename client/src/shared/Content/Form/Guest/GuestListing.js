@@ -16,7 +16,7 @@ class Popup extends React.Component {
                             <div className="content">
                                 <div className="details">
                                     <div className="inputListing">
-                                        <h1> {this.props.year} {this.props.make} {this.props.model} </h1>
+                                        <h1> {this.props.year} {this.props.gender} </h1>
                                         <div className="price">
                                             <h1 className="prices">${this.props.price}</h1>
                                         </div>
@@ -34,11 +34,11 @@ class Popup extends React.Component {
                                         {/* <img className="image" src={photo4} alt="" ></img> */}
                                     </div>
                                     <div className="radios">
-                                        <p>Drivetrain: {this.props.drivetrain}</p>
-                                        <p>Transmission: {this.props.transmission}</p>
+                                        <p>Gender: {this.props.gender}</p>
+                                        {/* <p>Transmission: {this.props.transmission}</p> */}
                                         <p>Color: {this.props.color}</p>
-                                        <p>Doors: {this.props.doors}</p>
-                                        <p>Miles: {this.props.miles}</p>
+                                        {/* <p>Doors: {this.props.doors}</p> */}
+                                        {/* <p>Miles: {this.props.miles}</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ class GuestListing extends React.Component {
         });
     }
     render() {
-        let { make, model, year, miles, drivetrain, transmission, color, doors, price, photo1, photo2, photo3, /*photo4,*/ description } = this.props;
+        let { gender, color, price, photo1, photo2, photo3, /*photo4,*/ description } = this.props;
         return (
             <div className="popupSection">
                 <div className="sample">
@@ -76,12 +76,12 @@ class GuestListing extends React.Component {
                     <img className="sampleImage" src={photo1} alt="" ></img>
                     <div className="sampleDetails">
                     <img className="MobileSampleImage" src={photo1} alt="" ></img>
-                    <h1 className="mobileTitle">{year} {make} {model}</h1>
+                    <h1 className="mobileTitle">{gender}</h1>
                     <h4 className="prices">${price}</h4>
                     <div className="sampleRadio">
                         <p>Color: {color}</p>
-                        <p>Drivetrain: {drivetrain}</p>
-                        <p>Transmission: {transmission}</p>
+                        <p>Gender: {gender}</p>
+                        {/* <p>Transmission: {transmission}</p> */}
                     </div>
                     <button onClick={this.togglePopup.bind(this)}>Show More</button>
                     </div>
@@ -89,14 +89,8 @@ class GuestListing extends React.Component {
                 {/* <button onClick={this.togglePopup.bind(this)}>show  section</button> */}
                 {this.state.showPopup ?
                     <Popup
-                        make={make}
-                        model={model}
-                        year={year}
-                        miles={miles}
-                        drivetrain={drivetrain}
-                        transmission={transmission}
+                        gender={gender}
                         color={color}
-                        doors={doors}
                         price={price}
                         photo1={photo1}
                         photo2={photo2}

@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    /* height: 100vh; */
 }
 
 .appStructure {
@@ -9,7 +10,7 @@ body {
     /* align-items: center; */
 }
 .appNav{
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     width: 100%;
 }
@@ -19,6 +20,8 @@ body {
     bottom:0;
     width:100%; */
     position: relative;
+    /* position: absolute; */
+    /* margin-top: -19px; */
     left: 0;
     bottom: 0;
     width: 100%;

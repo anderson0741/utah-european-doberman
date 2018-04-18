@@ -15,7 +15,8 @@
 
 .aboutPic {
     float: left;
-    width: 500px;
+    width: 30vw;
+    height: auto;
     padding: 25px 25px;
 }
 

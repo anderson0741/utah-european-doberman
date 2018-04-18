@@ -5,7 +5,6 @@ import { connect } from "react-redux";
 import { logout } from "../redux/auth";
 // import Home from '../../shared/Home/index.js';
 
-
 import './Nav.css';
 
 class Nav extends Component {
@@ -13,29 +12,6 @@ class Nav extends Component {
         const isAuthenticated = this.props.isAuthenticated;
         return (
             <div className="outerNavDiv" >
-                {/* <div className="navBod">
-                    <img className='imgs' src={images} alt="" />
-                    <h1 className='NavTitle'>Utah European Doberman</h1>
-                    <div className="menuOptions">
-                        <div className="navBod_nav guest">
-                            <button className="dropbtn">Menu</button>
-                            <div className="nav_dropdwn">
-                                <a className='links' href="/">Home</a>
-                                <a className='links' href="/about">About</a>
-                                <a className='links' href="/dogs">Dogs</a>
-                                <a className='links' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
-                                <a className='links' href="/contact">Contact Us</a>
-                            </div>
-                        </div>
-                        {isAuthenticated ? <div className="navBod_nav user">
-                            <button className="dropbtn">Username</button>
-                            <div className="nav_dropdwn user">
-                                <a><Link className='links' to="/upload">Upload Content</Link></a>
-                                <a className='links' onClick={this.props.logout}>Logout</a>
-                            </div>
-                        </div> : null}
-                    </div>
-                </div> */}
                 <div className="navSet">
                     <a className='linkz' href="/">Home</a>
                     <a className='linkz' href="/about">About</a>
@@ -43,6 +19,27 @@ class Nav extends Component {
                     <a className='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
                     <a className='linkz' href="/contact">Contact Us</a>
                 </div>
+
+                {/* <div className="mobileWrapper">
+                    <div className="info">
+                        <div className="info-content">
+                            <h1>Multi level <strong>CSS-only push menu</strong></h1>
+                            <p>&lt;noscript&gt;No javascript required&lt;/noscript&gt;</p>
+                        </div>
+                        <input type="checkbox" name="menu" id="menu" className="menu-content" />
+                        <div className="menuNav">
+                            <label className="menu-toggle" for="menu"><span>Toggle</span></label>
+                            <ul>
+                                <li>
+                                    <a href="#">Menu-1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Menu-2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> */}
             </div>
         )
     }

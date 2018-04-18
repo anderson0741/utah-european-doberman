@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import App from './App';
+import App2 from './App2';
 
 ReactDOM.render(
-    <Provider store={store}>
-        <BrowserRouter>
+    <ParallaxProvider>
+        <Provider store={store}>
+            <BrowserRouter>
             <App />
         </BrowserRouter>
-    </Provider>
+            {/* <App2 /> */}
+        </Provider>
+    </ParallaxProvider>
     , document.getElementById('root'));
