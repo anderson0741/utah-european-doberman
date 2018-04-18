@@ -23,7 +23,7 @@
         margin-left: 15px;
         text-decoration: none;
         color: rgba(255, 255, 255, 0.5);
-        transition: all .5s ease-in .0s;
+        transition: all .2s ease-in .0s;
         text-shadow: 3px 3px 3px black;
     }
     .linkz:hover {
