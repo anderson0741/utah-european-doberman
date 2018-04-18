@@ -1,157 +1,22 @@
-/* @media (min-width: 787px) {
-    .outerNavDiv {
-        display: flex;
-        justify-content: center;
-    }
-    .navBod {
-        background-color: rgb(255, 255, 255);
-        top: 0%;
-        background-position-y: 450%;
-        background-position-x: 40%;
-        border: 5px gray solid;
-        border-radius: 4px;
-        height: 65px;
-        width: 900px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        border: black 1px solid;
-        padding-left: 10px;
-        padding-right: 10px;
-        box-shadow: 4px 3px 13px black;
-        z-index: 3;
-    }
-    .dropbtn {
-        background-color: rgb(236, 78, 92);
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-    }
-    .navBod_nav {
-        position: relative;
-        display: inline-block;
-    }
-    .nav_dropdwn {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    .nav_dropdwn a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .nav_dropdwn a:hover {
-        background-color: #ddd
-    }
-    .navBod_nav:hover .nav_dropdwn {
-        display: block;
-    }
-    .navBod_nav:hover .dropbtn {
-        background-color: #7a7a7a;
-    }
-    .imgs {
-        height: 65px;
-        width: 300px;
-        opacity: 0.9;
-    }
-
-    .links {
-        text-decoration: none;
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 100%;
-        opacity: 0.9;
-    }
-}
-
-@media (max-width: 786px) {
-    .outerNavDiv {
-        display: flex;
-        justify-content: center;
-    }
-    .navBod {
-        background-color: rgb(255, 255, 255);
-        top: 0%;
-        background-position-y: 450%;
-        background-position-x: 40%;
-        border: 5px gray solid;
-        border-radius: 4px;
-        height: 65px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        border: black 1px solid;
-        padding-left: 10px;
-        padding-right: 10px;
-        box-shadow: 4px 3px 13px black;
-        z-index: 3;
-    }
-    .NavTitle{
-        display: none;
-    }
-    .dropbtn {
-        background-color: rgb(236, 78, 92);
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-    }
-    .navBod_nav {
-        position: relative;
-        display: inline-block;
-    }
-    .nav_dropdwn {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    .nav_dropdwn a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .nav_dropdwn a:hover {
-        background-color: #ddd
-    }
-    .navBod_nav:hover .nav_dropdwn {
-        display: block;
-    }
-    .navBod_nav:hover .dropbtn {
-        background-color: #7a7a7a;
-    }
-    .imgs {
-        height: 65px;
-        width: 300px;
-        opacity: 0.9;
-    }
-
-    .links {
-        text-decoration: none;
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 100%;
-        opacity: 0.9;
-    }
-} */
-
 @media (min-width: 787px) {
+    .outerNavDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navTitle{
+        color: white;
+        text-shadow: 3px 3px 3px black;
+        margin-top: 45px;
+        margin-left: 35px;
+        /* align-self: flex-end */
+    }
     .navSet {
         display: flex;
         justify-content: flex-end;
         margin-top: 45px;
         margin-right: 35px;
+        /* align-self: flex-start */
     }
     .linkz {
         font-size: 25px;

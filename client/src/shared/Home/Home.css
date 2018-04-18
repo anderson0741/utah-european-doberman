@@ -7,6 +7,9 @@
         background-repeat: repeat-y;
         background-size: cover;
     }
+    /* .navTitle{
+        display: none;
+    } */
     .welcome_dob {
         /* background: url('../../images/farm.jpg');
         background-position: center;

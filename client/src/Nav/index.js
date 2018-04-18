@@ -12,6 +12,9 @@ class Nav extends Component {
         const isAuthenticated = this.props.isAuthenticated;
         return (
             <div className="outerNavDiv" >
+                <div className="navTitle">
+                    <h1> Utah European Doberman</h1>
+                </div>
                 <div className="navSet">
                     <a className='linkz' href="/">Home</a>
                     <a className='linkz' href="/about">About</a>
