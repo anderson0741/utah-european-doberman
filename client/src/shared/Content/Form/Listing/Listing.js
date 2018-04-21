@@ -19,7 +19,7 @@ class Listing extends Component {
 
 
     render() {
-        let { gender, color, price, photo1, photo2, photo3, /*photo4,*/ description, listingDelete, _id } = this.props;
+        let { gender, color, price, photo1, photo2, photo3, photo4, description, listingDelete, _id } = this.props;
         let { isEditing } = this.state;
         return (
             <div className="parent">
@@ -46,7 +46,7 @@ class Listing extends Component {
                                     <img className="image" src={photo1} alt="" ></img>
                                     <img className="image" src={photo2} alt="" ></img>
                                     <img className="image" src={photo3} alt="" ></img>
-                                    {/* <img className="image" src={photo4} alt="" ></img> */}
+                                    <img className="image" src={photo4} alt="" ></img>
                                 </div>
                                 <div className="radios">
                                     <p>Gender: {gender}</p>

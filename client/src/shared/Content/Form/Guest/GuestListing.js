@@ -31,7 +31,7 @@ class Popup extends React.Component {
                                         <img className="image" src={this.props.photo1}></img>
                                         <img className="image" src={this.props.photo2}></img>
                                         <img className="image" src={this.props.photo3}></img>
-                                        {/* <img className="image" src={photo4} alt="" ></img> */}
+                                        <img className="image" src={photo4} alt="" ></img>
                                     </div>
                                     <div className="radios">
                                         <p>Gender: {this.props.gender}</p>
@@ -67,7 +67,7 @@ class GuestListing extends React.Component {
         });
     }
     render() {
-        let { gender, color, price, photo1, photo2, photo3, /*photo4,*/ description } = this.props;
+        let { gender, color, price, photo1, photo2, photo3, photo4, description } = this.props;
         return (
             <div className="popupSection">
                 <div className="sample">
@@ -81,7 +81,6 @@ class GuestListing extends React.Component {
                     <div className="sampleRadio">
                         <p>Color: {color}</p>
                         <p>Gender: {gender}</p>
-                        {/* <p>Transmission: {transmission}</p> */}
                     </div>
                     <button onClick={this.togglePopup.bind(this)}>Show More</button>
                     </div>
@@ -95,6 +94,7 @@ class GuestListing extends React.Component {
                         photo1={photo1}
                         photo2={photo2}
                         photo3={photo3}
+                        photo4={photo4}
                         description={description}
                         closePopup={this.togglePopup.bind(this)}
                     />
