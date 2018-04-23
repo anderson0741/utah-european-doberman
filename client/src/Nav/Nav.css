@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 786px) {
-    [canvas] {
+    /* [canvas] {
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
@@ -106,5 +106,43 @@
     }
     offcanvas ul>li>a:hover {
         color: #ededeb;
+    } */
+    .outerNavDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        width: 100vw;
+    }
+    .navTitle{
+        /* color: white;
+        text-shadow: 3px 3px 3px black;
+        margin-top: 45px;
+        margin-left: 35px; */
+        display: none;
+        /* align-self: flex-end */
+    }
+    .navSet {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 45px;
+        margin-right: 35px;
+        /* align-self: flex-start */
+    }
+    .linkz {
+        font-size: 12px;
+        margin-left: 15px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5);
+        transition: all .2s ease-in .0s;
+        text-shadow: 3px 3px 3px black;
+    }
+    .linkz:hover {
+        /* font-size: 18px; */
+        margin-left: 15px;
+        text-decoration: none;
+        color: white;
+        text-shadow: 8px 8px 8px black;
     }
 }

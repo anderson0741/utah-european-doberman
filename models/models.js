@@ -18,8 +18,8 @@ const listingSchema = new mongoose.Schema({
     "photo4": String,
     user: {
         type: Schema.Types.ObjectId,
-        ref: "User"
-        // required: false
+        ref: "User",
+        required: false
     }
 });
 
