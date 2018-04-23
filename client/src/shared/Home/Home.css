@@ -135,7 +135,7 @@
         background-repeat: repeat-y;
         background-size: 1200px 600px;
     }
-    .welcome_level {
+    .welcome_dob {
         display: none;
     }
     .knockout {
@@ -163,6 +163,7 @@
         justify-content: center;
         align-items: center;
         font-size: 15px;
+        text-align: center;
         text-shadow: 3px 3px black;
         color: white;
         margin-top: 25vh;

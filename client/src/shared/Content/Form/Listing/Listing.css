@@ -229,4 +229,18 @@
     .mobileTitle{
         font-size: 17px;
     }
+    .loadingscene{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        background-image: url('../Guest/loading.gif');
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 75vh;
+        color: white;
+        font-size: 3vh;
+        text-shadow: 3px 3px 3px black;
+    }
 }

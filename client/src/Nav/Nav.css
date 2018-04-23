@@ -112,8 +112,9 @@
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        background-color: black;
+        /* background-color: black;
         width: 100vw;
+        height: 7vh; */
     }
     .navTitle{
         /* color: white;
@@ -125,9 +126,12 @@
     }
     .navSet {
         display: flex;
-        justify-content: flex-end;
-        margin-top: 45px;
-        margin-right: 35px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 7vh;
+        width: 100%;
+        margin: auto;
         /* align-self: flex-start */
     }
     .linkz {
@@ -137,6 +141,7 @@
         color: rgba(255, 255, 255, 0.5);
         transition: all .2s ease-in .0s;
         text-shadow: 3px 3px 3px black;
+        margin-right: 3px;
     }
     .linkz:hover {
         /* font-size: 18px; */
