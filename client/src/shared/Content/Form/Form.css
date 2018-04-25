@@ -1,21 +1,27 @@
 @media (min-width: 768px) {
     .overallWrap {
         margin-top: 30px;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 13px;
+        margin-bottom: 130px;
+
     }
     .color {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: solid black 1px;
+        border-radius: 3px;
+        width: 40em;
+        box-shadow: 4px 3px 13px black;
+    }
+    .ddd{
         background-color: rgba(255, 255, 255, 0.8);
         border: solid black 1px;
         border-radius: 3px;
         display: flex;
         flex-direction: column;
         width: 40em;
-        box-shadow: 4px 3px 13px black;
     }
     .listingWrap {
         display: flex;
@@ -24,41 +30,13 @@
         box-shadow: 4px 3px 13px black;
     }
     .title {
-        /* background-color: white; */
         text-shadow: 3px 3px 3px gray;
-        /* border: solid black 1px; */
         border-radius: 3px;
         width: 20em;
         text-align: center;
-        /* opacity: 0.7; */
     }
     .about {
         align-self: center;
-    }
-    .grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50px 50px 50px;
-        grid-gap: 0px;
-        grid-template-areas: "ma mo" "ye mi" "co pr"
-    }
-    .make {
-        grid-area: ma;
-    }
-    .model {
-        grid-area: mo;
-    }
-    .year {
-        grid-area: ye;
-    }
-    .miles {
-        grid-area: mi;
-    }
-    .carColor {
-        grid-area: co;
-    }
-    .price {
-        grid-area: pr;
     }
     .linkedPhotos{
         display: flex;
@@ -71,6 +49,7 @@
     }
     .input {
         margin-left: 2em;
+        /* height: 1vh; */
     }
     .titleRange {
         align-self: center;
@@ -128,8 +107,6 @@
         border: 1px black solid;
     }
     .imageUpload{
-        /* widows: 300px; */
-        /* height: 100px; */
         padding: 13px 40px;
     }
     .submit{

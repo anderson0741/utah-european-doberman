@@ -139,7 +139,7 @@ export default class Form extends Component {
                     <div className="color small"><h1 className="title">About Puppies</h1></div>
                     <br />
                     <div className="listingWrap">
-                        <div className="color">
+                        <div className="ddd">
                             <h3 className="input about small">About Pups</h3>
                             <div className="linkTitle">
                                 <p className="input linkTitle">
