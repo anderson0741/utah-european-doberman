@@ -50,10 +50,7 @@ class Listing extends Component {
                                 </div>
                                 <div className="radios">
                                     <p>Gender: {gender}</p>
-                                    {/* <p>Transmission: {transmission}</p> */}
                                     <p>Color: {color}</p>
-                                    {/* <p>Doors: {doors}</p> */}
-                                    {/* <p>Miles: {miles}</p> */}
                                 </div>
                             </div>
                         </div>

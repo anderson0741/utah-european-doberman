@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Listing from './Listing';
 
 export default class ListingDisplay extends Component {
+    
     render() {
-        let { listings, loading, listingDelete } = this.props;
+        let { listings, loading, listingDelete, listing } = this.props;
         return (
             loading ?
                 <div>

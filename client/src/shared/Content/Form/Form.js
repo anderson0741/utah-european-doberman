@@ -35,30 +35,6 @@ export default class Form extends Component {
         this.handleEdit = this.handleEdit.bind(this);
     }
 
-    onImageDrop(files) {
-        this.setState({
-            uploadedFile: files[0]
-        });
-        this.handleImageUpload(files[0]);
-    }
-
-    // handleImageUpload(file) {
-    //     let upload = request.post(cloudinaryUrl)
-    //         .field('upload_preset', cloudinaryPreset)
-    //         .field('file', file);
-    //     upload.end((err, response) => {
-    //         if (err) {
-    //             console.error(err);
-    //         }
-    //         console.log(response)
-    //         if (response.body.secure_url !== '') {
-    //             this.setState({
-    //                 uploadedFileCloudinaryUrl: response.body.secure_url
-    //             });
-    //         }
-    //     });
-    // }
-
     handleChange(e) {
         let { name, value } = e.target;
         this.setState(prevState => {
@@ -72,7 +48,6 @@ export default class Form extends Component {
     }
 
     handleSubmit(e) {
-        // let { _id, updateListing } = this.props;
         let listing = this.state.inputs
         e.preventDefault();
         axios.post(listingUrl, listing)
