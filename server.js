@@ -17,9 +17,9 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/listings", (err
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "client", "build")))
-// app.use("/api/public/listing", require('./routes/public'));
+app.use("/api/public/listing", require('./routes/public'));
 // app.use("/listing/", expressJwt({secret: process.env.SECRET}));
-// app.use("/auth", require("./routes/auth"));
+app.use("/auth", require("./routes/auth"));
 app.use('/api/listing', require('./routes/routes'));
 app.use('/api/upload', require('./routes/routes'));
 
