@@ -4,6 +4,20 @@ import '../Listing/Listing.css';
 
 
 class Popup extends React.Component {
+    constructor(props) {
+        super(props);
+        const { photo1, photo2, photo3, photo4 } = props;
+        this.state = {
+            images: [photo1, photo2, photo3, photo4],
+            currIndex: 0,
+            // active: ""
+        }
+    }
+    currentSlide = (n) => {
+        this.setState({
+            currIndex: n
+        })
+    }
     render() {
         return (
             <div className='popup'>
@@ -28,17 +42,24 @@ class Popup extends React.Component {
                                 <div className="padding">
                                     <div className="images">
                                         <br />
-                                        <img className="image" src={this.props.photo1}></img>
+                                        {/* <img className="image" src={this.props.photo1}></img>
                                         <img className="image" src={this.props.photo2}></img>
-                                        <img className="image" src={this.props.photo3}></img>
+                                        <img className="image" src={this.props.photo3}></img> */}
+                                        <div>
+                                            {this.state.images.map((image, i) => {
+                                                return <img className="dotImage" src={image} style={{ display: i !== this.state.currIndex ? "none" : "block" }} alt="" />
+                                            })}
+                                            <div className="dottin">
+                                                {this.state.images.map((image, i) => {
+                                                    return <span className="dot" onClick={() => this.currentSlide(i)} style={{ backgroundColor: i === this.state.currIndex ? "#717171" : "" }}></span>
+                                                })}
+                                            </div>
+                                        </div>
                                         {/* <img className="image" src={photo4} alt="" ></img> */}
                                     </div>
                                     <div className="radios">
                                         <p>Gender: {this.props.gender}</p>
-                                        {/* <p>Transmission: {this.props.transmission}</p> */}
                                         <p>Color: {this.props.color}</p>
-                                        {/* <p>Doors: {this.props.doors}</p> */}
-                                        {/* <p>Miles: {this.props.miles}</p> */}
                                     </div>
                                 </div>
                             </div>
