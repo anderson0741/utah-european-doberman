@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import images from '../images/Dobermanlogo2.jpg';
 import { connect } from "react-redux";
 import { logout } from "../redux/auth";
-// import Home from '../../shared/Home/index.js';
 
 import './Nav.css';
 

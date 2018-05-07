@@ -88,7 +88,7 @@ class GuestListing extends React.Component {
         });
     }
     render() {
-        let { gender, color, price, photo1, photo2, photo3, /*photo4,*/ description } = this.props;
+        let { gender, color, price, photo1, photo2, photo3, /*photo4,*/reserve, description } = this.props;
         return (
             <div className="popupSection">
                 <div className="sample">
@@ -115,6 +115,7 @@ class GuestListing extends React.Component {
                         photo1={photo1}
                         photo2={photo2}
                         photo3={photo3}
+                        reserve={reserve}
                         description={description}
                         closePopup={this.togglePopup.bind(this)}
                     />

@@ -1,21 +1,12 @@
 @media(min-width: 862px) {
     body {
-        /* background-image: url('../../images/doberman_background.jpg'); */
         background-image: url('../../images/5.jpg');
         background-position: center;
         background-attachment: fixed;
         background-repeat: repeat-y;
         background-size: cover;
     }
-    /* .navTitle{
-        display: none;
-    } */
     .welcome_dob {
-        /* background: url('../../images/farm.jpg');
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: repeat-y;
-        background-size: cover; */
         background-color: white;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
         color: red;
@@ -30,7 +21,6 @@
         text-align: center;
     }
     .aboutBackground {
-        /* width: 110%; */
         background-color: white;
         height: 100vh;
         width: 200vw;
@@ -70,7 +60,6 @@
         border: solid rgb(61, 61, 61) 1px;
         box-shadow: 3px 3px 7px black;
         border-radius: 3px;
-        /* background-size: 400px; */
         background-size: cover;
         background-position-x: center;
         display: flex;
@@ -85,7 +74,6 @@
         border: solid black 2px;
         box-shadow: 3px 3px 7px black;
         border-radius: 3px;
-        /* background-size: 400px; */
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -100,12 +88,10 @@
     }
     .shopCars {
         grid-area: s;
-        /* background-image: url('../../images/jeeps.jpg'); */
         background-image: url("../../images/doberman_puppie.jpg");
     }
     .aboutSelector {
         grid-area: a;
-        /* background-image: url("../../images/story.JPG"); */
         background-image: url("../../images/8.jpg");
     }
     .location {
@@ -124,7 +110,6 @@
     }
 }
 
-/*  */
 
 @media(max-width: 861px) {
     body {
@@ -151,13 +136,10 @@
         font-weight: bold;
         font-size: 10px;
         font-family: arial, helvetica;
-        /* width: 600px; */
         margin: 50px auto;
         text-align: center;
     }
     .welcome_level_mobile {
-        /* height: 5vh; */
-        /* width: 15vw; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -186,7 +168,6 @@
         border: solid black 1px;
         box-shadow: 3px 3px 7px black;
         border-radius: 3px;
-        /* background-size: 400px; */
         background-size: cover;
         background-position-x: center;
         display: flex;
@@ -202,7 +183,6 @@
         box-shadow: 3px 3px 7px black;
         border-radius: 3px;
         background-position: center;
-        /* background-attachment: scroll; */
         background-repeat: no-repeat;
         background-size: 1920px 1200px;
         display: flex;
@@ -215,7 +195,6 @@
     }
     .shopCars {
         grid-area: s;
-        /* background-image: url('../../images/jeeps.jpg'); */
         background-image: url("../../images/doberman_puppie.jpg");
     }
     .aboutSelector {

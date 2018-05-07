@@ -56,7 +56,7 @@ export default class EditForm extends Component {
     }
 
     render() {
-        let { gender, color, price, photo1, photo2, photo3, photo4, description } = this.state.inputs;
+        let { gender, color, price, photo1, photo2, photo3, photo4, reserve, description } = this.state.inputs;
         let { listings } = this.state;
         console.log(listings);
         return (
@@ -82,6 +82,9 @@ export default class EditForm extends Component {
                                 <label htmlFor=""><input className="input" onChange={this.handleChange} type="radio" name="gender" value="Male" checked={gender === "Male"} /> Male</label>
                                 <label htmlFor=""><input className="input" onChange={this.handleChange} type="radio" name="gender" value="Female" checked={gender === "Female"} /> Female</label>
                             </p>
+                            <p className="input">Reserved:
+                             <label><input className="input" onChange={this.handleChange} name="reserve" type="checkbox" value={reserve}></input></label>
+                             </p>
                             <p className="input">Price:
                                 <input className="input vehicleInfo price" onChange={this.handleChange} name="price" type="number" value={price} placeholder="Puppies Price" />
                             </p>

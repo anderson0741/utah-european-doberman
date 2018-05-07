@@ -306,7 +306,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: red; */
         background-image: url('../Guest/loading.gif');
         background-size: 20vh;
         background-repeat: no-repeat;
@@ -315,8 +314,6 @@
         color: white;
         font-size: 3vh;
         text-shadow: 3px 3px 3px black;
-        /* width: 200px; */
-        /* background-size: auto */
     }
     .dotImage {
         width: auto;

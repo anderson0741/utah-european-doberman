@@ -16,6 +16,7 @@ const listingSchema = new mongoose.Schema({
     "photo2": String,
     "photo3": String,
     "photo4": String,
+    reserved: String,
     user: {
         type: Schema.Types.ObjectId,
         ref: "User",

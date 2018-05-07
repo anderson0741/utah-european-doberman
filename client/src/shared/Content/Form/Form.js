@@ -21,6 +21,7 @@ export default class Form extends Component {
                 "color": '',
                 "price": '',
                 "description": '',
+                reserve: '',
                 "user": ''
             },
             listings: [],
@@ -123,14 +124,15 @@ export default class Form extends Component {
                 "photo1": '',
                 "photo2": '',
                 "photo3": '',
-                "photo4": ''
+                "photo4": '',
+                reserve: ''
             },
             uploadedFileCloudinaryUrl: ""
         })
     }
 
     render() {
-        let { gender, color, price, description, photo1, photo2, photo3, photo4, user } = this.state.inputs;
+        let { gender, color, price, description, photo1, photo2, photo3, photo4, reserve, user } = this.state.inputs;
         let { listings, loading } = this.state;
         return (
             <div>
@@ -161,6 +163,9 @@ export default class Form extends Component {
                             <p className="input">Color:
                                 <input className="input vehicleInfo carColor" onChange={this.handleChange} name="color" type="text" value={color} placeholder="Puppies Fur Color" />
                             </p>
+                            <p className="input">Reserved:
+                             <label><input className="input" onChange={this.handleChange} name="reserve" type="checkbox" value={reserve}></input></label>
+                             </p>
                             <div className="description input">
                                 <textarea name="description" className="describe" placeholder="Description" value={description} onChange={this.handleChange} id="" cols="30" rows="10"></textarea>
                             </div>
