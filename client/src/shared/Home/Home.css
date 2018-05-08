@@ -11,7 +11,7 @@
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
         color: red;
         -webkit-text-fill-color: transparent;
-        /* -webkit-background-clip: text; */
+        -webkit-background-clip: text;
         font-weight: bold;
         font-size: 70px;
         font-family: arial, helvetica;
@@ -132,7 +132,7 @@
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
         color: red;
         -webkit-text-fill-color: transparent;
-        /* -webkit-background-clip: text; */
+        -webkit-background-clip: text;
         font-weight: bold;
         font-size: 10px;
         font-family: arial, helvetica;
