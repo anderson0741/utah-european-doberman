@@ -6,7 +6,6 @@ import store from "./redux";
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 import App from './App';
-import App2 from './App2';
 
 ReactDOM.render(
     <ParallaxProvider>
@@ -14,7 +13,6 @@ ReactDOM.render(
             <BrowserRouter>
             <App />
         </BrowserRouter>
-            {/* <App2 /> */}
         </Provider>
     </ParallaxProvider>
     , document.getElementById('root'));
