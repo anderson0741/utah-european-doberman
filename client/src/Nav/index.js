@@ -33,11 +33,11 @@ class Nav extends Component {
                             <span></span>
 
                             <ul className="menu">
-                                <a className="navLink" href="#"><li>Home</li></a>
-                                <a className="navLink" href="#"><li>About</li></a>
-                                <a className="navLink" href="#"><li>Info</li></a>
-                                <a className="navLink" href="#"><li>Contact</li></a>
-                                <a className="navLink" href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                                <a className="navLink" href="/"><li>Home</li></a>
+                                <a className="navLink" href="/about"><li>About</li></a>
+                                <a className="navLink" href="/dogs"><li>Dogs</li></a>
+                                <a className="navLink" href="https://wizardly-borg-524486.netlify.com/"><li>Reserve Your Dog</li></a>
+                                <a className="navLink" href="/contact" target="_blank"><li>Contact Us</li></a>
                             </ul>
                         </div>
                     </nav>

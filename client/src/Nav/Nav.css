@@ -39,7 +39,6 @@
     .functionalDiv {
         margin: -10px;
         padding: 0;
-        /* make it look decent enough */
         background: #232323;
         color: #cdcdcd;
         height: 15vh;
@@ -71,14 +70,9 @@
         left: -5px;
         cursor: pointer;
         opacity: 0;
-        /* hide this */
         z-index: 2;
-        /* and place it over the hamburger */
         -webkit-touch-callout: none;
     }
-    /*
- * Just a quick hamburger
- */
     .menuToggle span {
         display: block;
         width: 33px;
