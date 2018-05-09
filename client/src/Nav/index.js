@@ -11,6 +11,7 @@ class Nav extends Component {
         const isAuthenticated = this.props.isAuthenticated;
         return (
             <div className="outerNavDiv" >
+                <div className="functionalDiv1">
                 <div className="navTitle">
                     <h1> Utah European Doberman</h1>
                 </div>
@@ -21,27 +22,26 @@ class Nav extends Component {
                     <a className='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
                     <a className='linkz' href="/contact">Contact Us</a>
                 </div>
+                </div>
 
-                {/* <div className="mobileWrapper">
-                    <div className="info">
-                        <div className="info-content">
-                            <h1>Multi level <strong>CSS-only push menu</strong></h1>
-                            <p>&lt;noscript&gt;No javascript required&lt;/noscript&gt;</p>
-                        </div>
-                        <input type="checkbox" name="menu" id="menu" className="menu-content" />
-                        <div className="menuNav">
-                            <label className="menu-toggle" for="menu"><span>Toggle</span></label>
-                            <ul>
-                                <li>
-                                    <a href="#">Menu-1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Menu-2</a>
-                                </li>
+                <div className="functionalDiv">
+                    <nav role="navigation">
+                        <div className="menuToggle">
+                            <input type="checkbox" />
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <ul className="menu">
+                                <a className="navLink" href="#"><li>Home</li></a>
+                                <a className="navLink" href="#"><li>About</li></a>
+                                <a className="navLink" href="#"><li>Info</li></a>
+                                <a className="navLink" href="#"><li>Contact</li></a>
+                                <a className="navLink" href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
                             </ul>
                         </div>
-                    </div>
-                </div> */}
+                    </nav>
+                </div>
             </div>
         )
     }
