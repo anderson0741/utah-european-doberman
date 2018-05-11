@@ -15,6 +15,7 @@
         border-radius: 3px;
         box-shadow: 3px 3px 15px rgb(49, 49, 49);
         width: 600px;
+        margin-bottom: 550px;
     }
     .optionSurvey {
         display: flex;
