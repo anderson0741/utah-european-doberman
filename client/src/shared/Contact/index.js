@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <div class="addresses">
+        <div class="contactad">
             <div className="surveyTitle">
                 <h1 className='detailSurvey'>Reserve your European Doberman</h1>
                 <p className='detailSurvey'>Dogs are 2,000 - 3,200 based on options selected. </p>
