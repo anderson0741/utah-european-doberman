@@ -10,7 +10,7 @@ function Footer() {
             <div className="footerBod">
                 <div className="icons">
                     <a className='instagram' href="https://www.instagram.com/europeandobes/?hl=en"><img className='footerIcons' src={instagram} alt=""/></a>
-                    {/* <a className='facebook' href="https://www.facebook.com/Level-Up-Car-Sales-513113469032684/?ref=page_internal"><img className='footerIcons' src={facebook} alt=""/></a> */}
+                    <a className='facebook' href="https://www.facebook.com/europeandobes"><img className='footerIcons' src={facebook} alt=""/></a>
                 </div>
                 <div className="toPage">
                 {/* <a className='home' href="/">Home</a>
