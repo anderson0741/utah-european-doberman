@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "client", "build")))
 // app.use("/api/public/listing", require('./routes/public'));
 // app.use("/api/listing/", expressJwt({secret: process.env.SECRET}));
-// app.use("/api", expressJwt({secret: process.env.SECRET}));
+app.use("/api", expressJwt({secret: process.env.SECRET}));
 app.use("/auth", require("./routes/auth"));
 app.use('/listing', require('./routes/routes'));
 app.use('/api/upload', require('./routes/routes'));
