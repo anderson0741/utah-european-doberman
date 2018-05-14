@@ -19,7 +19,7 @@ class Nav extends Component {
                         <a className='linkz' href="/">Home</a>
                         <a className='linkz' href="/about">About</a>
                         <a className='linkz' href="/dogs">Dogs</a>
-                        <a className='linkz' href="https://wizardly-borg-524486.netlify.com/">Reserve Your Dog</a>
+                        <a className='linkz' href="https://europeandobes-reserve.netlify.com/">Reserve Your Dog</a>
                         <a className='linkz' href="/contact">Contact Us</a>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ class Nav extends Component {
                                 <a className="navLink" href="/"><li>Home</li></a>
                                 <a className="navLink" href="/about"><li>About</li></a>
                                 <a className="navLink" href="/dogs"><li>Dogs</li></a>
-                                <a className="navLink" href="https://wizardly-borg-524486.netlify.com/"><li>Reserve Your Dog</li></a>
+                                <a className="navLink" href="https://europeandobes-reserve.netlify.com/"><li>Reserve Your Dog</li></a>
                                 <a className="navLink" href="/contact" target="_blank"><li>Contact Us</li></a>
                             </ul>
                         </div>
