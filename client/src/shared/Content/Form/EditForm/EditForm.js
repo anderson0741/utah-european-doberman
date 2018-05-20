@@ -10,7 +10,7 @@ export default class EditForm extends Component {
     constructor(props) {
         super(props);
         console.log(props);
-        let { make, model, year, miles, drivetrain, transmission, color, doors, price, photo1, photo2, photo3, /*photo4,*/ description } = props;
+        let { make, model, year, miles, drivetrain, transmission, color, doors, price, photo1, photo2, photo3, photo4, description } = props;
         this.state = {
             inputs: {
                 make: make || '',
@@ -25,8 +25,8 @@ export default class EditForm extends Component {
                 "description": description || '',
                 photo1: photo1 || '',
                 photo2: photo2 || '',
-                photo3: photo3 || ''
-                /*photo4: photo4 || ''*/
+                photo3: photo3 || '',
+                photo4: photo4 || ''
             },
             listings: [],
             uploadedFileCloudinaryUrl: "",
