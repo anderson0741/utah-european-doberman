@@ -183,9 +183,9 @@ export default class Form extends Component {
                             <p className="input">Color:
                                 <input className="input vehicleInfo carColor" onChange={this.handleChange} name="color" type="text" value={color} placeholder="Puppies Fur Color" />
                             </p>
-                            <p className="input">Reserved:
+                            {/* <p className="input">Reserved:
                              <label><input className="input" onChange={this.handleChange} name="reserve" type="checkbox" value={reserve}></input></label>
-                             </p>
+                             </p> */}
                             <div className="description input">
                                 <textarea name="description" className="describe" placeholder="Description" value={description} onChange={this.handleChange} id="" cols="30" rows="10"></textarea>
                             </div>
