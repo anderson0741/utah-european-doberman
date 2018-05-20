@@ -48,7 +48,27 @@ export default class Form extends Component {
         });
     }
 
+    // handleSubmit(e) {
+    //     let listing = this.state.inputs
+    //     e.preventDefault();
+    //     axios.post(listingUrl, listing)
+    //         .then(response => {
+    //             console.log(response.data);
+    //             this.setState((prevState) => {
+    //                 return {
+    //                     listings: [response.data, ...prevState.listings],
+    //                     loading: false
+    //                 }
+    //             });
+    //         })
+    //         .catch(err => {
+    //             console.error(err);
+    //         })
+    //     this.clearInputs();
+    // }
+
     handleSubmit(e) {
+        // let { _id, updateListing } = this.props;
         let listing = this.state.inputs
         e.preventDefault();
         axios.post(listingUrl, listing)
@@ -66,7 +86,7 @@ export default class Form extends Component {
             })
         this.clearInputs();
     }
-
+    
     listingDelete(id) {
         let { listings } = this.state;
         axios.delete(listingUrl + id)
