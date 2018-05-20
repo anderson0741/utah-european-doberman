@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Form from './Form/Form';
 
-export default class componentName extends Component {
+export default class Content extends Component {
     render() {
         return (
             <div>
