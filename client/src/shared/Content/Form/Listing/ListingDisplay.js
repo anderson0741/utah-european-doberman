@@ -7,8 +7,8 @@ export default class ListingDisplay extends Component {
         let { listings, loading, listingDelete, listing } = this.props;
         return (
             loading ?
-                <div>
-                    loading...
+                <div className="loadingscene">
+                    Loading...
                 </div>
                 :
                 <div>
