@@ -22,13 +22,13 @@ function Home(props) {
                 </div>
                 <div className="selector">
                     <a href="dogs" className="shopCars cons1">
-                        <h1>Dogs</h1>
+                        <h1>Puppies</h1>
                     </a>
                     <a className="aboutSelector cons1" href="/about">
-                        <h1>ABOUT</h1>
+                        <h1>History</h1>
                     </a>
                     <a href="contact" className="location consTitle">
-                        <h1>LOCATION</h1>
+                        <h1>Contact Us</h1>
                     </a>
                 {/* <div className="otherFuture cons1">
                         <h1>future</h1>
