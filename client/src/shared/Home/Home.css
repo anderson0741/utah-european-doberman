@@ -88,7 +88,7 @@
     }
     .shopCars {
         grid-area: s;
-        background-image: url("../../images/doberman_puppie.jpg");
+        background-image: url("../../images/puppers.jpg");
     }
     .aboutSelector {
         grid-area: a;
@@ -195,7 +195,7 @@
     }
     .shopCars {
         grid-area: s;
-        background-image: url("../../images/doberman_puppie.jpg");
+        background-image: url("../../images/puppers.jpg");
     }
     .aboutSelector {
         grid-area: a;

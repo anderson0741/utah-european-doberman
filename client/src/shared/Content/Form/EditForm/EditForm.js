@@ -82,9 +82,9 @@ export default class EditForm extends Component {
                                 <label htmlFor=""><input className="input" onChange={this.handleChange} type="radio" name="gender" value="Male" checked={gender === "Male"} /> Male</label>
                                 <label htmlFor=""><input className="input" onChange={this.handleChange} type="radio" name="gender" value="Female" checked={gender === "Female"} /> Female</label>
                             </p>
-                            <p className="input">Reserved:
+                            {/* <p className="input">Reserved:
                              <label><input className="input" onChange={this.handleChange} name="reserve" type="checkbox" value={reserve}></input></label>
-                             </p>
+                             </p> */}
                             <p className="input">Price:
                                 <input className="input vehicleInfo price" onChange={this.handleChange} name="price" type="number" value={price} placeholder="Puppies Price" />
                             </p>

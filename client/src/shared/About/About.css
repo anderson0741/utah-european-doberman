@@ -24,7 +24,7 @@
 
 @media (max-width: 767px) {
     .theAboutWrapper {
-        background-color: white;
+        background-color: hsl(0, 0%, 100%);
         border: solid 1px gray;
         border-radius: 3px;
         padding: 15px 15px;
