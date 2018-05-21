@@ -1,24 +1,37 @@
 @media (min-width: 768px) {
+    .wrapCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .theAboutWrapper {
-        background-color: white;
+        align-self: center;
+        background-color: rgba(255, 255, 255, 0.9);
         border: solid 1px gray;
         border-radius: 3px;
         padding: 15px 15px;
         box-shadow: 2px 2px 12px black;
         margin-top: 10vh;
-        height: 80vh;
+        height: 800px;
+        width: 700px;
     }
     .theAboutTitle {
         text-align: center;
         font-size: 30px;
     }
+    .theAbout{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
     .aboutPic {
         float: left;
-        width: 350px;
+        width: 250px;
         height: auto;
         margin-bottom: 15px;
         margin-right: 30px;
         margin-left: 10px;
+        border: solid black 1px;
+        border-radius: 3px;
     }
 }
 

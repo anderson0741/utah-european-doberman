@@ -4,16 +4,15 @@ import './About.css';
 
 function About(props) {
     return (
-        <div>
+        <div className="wrapCenter">
             <div className="theAboutWrapper">
                 <div className="theAboutTitle">
-                    <h1>About The Mom</h1>
+                    <h1>History</h1>
                 </div>
                 <div className="theAbout">
                     <img className="aboutPic" src={theMom} alt="" />
-                    <h1>"Dobermans! In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government they survive as soldiers of fortune. If you have a problem, if no one else can help, and if you can find them....maybe you can hire The A-Team."</h1>
-                    <h1>"In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government they survive as soldiers of fortune. If you have a problem, if no one else can help, and if you can find them....maybe you can hire The A-Team."</h1>
-                    <h1>"In 1972, a crack commando unit was sent to prison by a military court for a crime they didn't commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government they survive as soldiers of fortune. If you have a problem, if no one else can help, and if you can find them....maybe you can hire The A-Team."</h1>
+                    <h1>The Doberman is a large, fearless dog that is well-known for its historically common job as a guard dog. Originating in Germany, the Doberman Pinscher is highly intelligent and loyal, and is well suited for police work, tracking, and competitive obedience. </h1>
+                    <h1>At home, these dogs are sweet, affectionate, and thrive on human companionship. Dobermans are usually excellent with children and other pets, and are consistently ranked among the AKC's most popular dog breeds.</h1>
                 </div>
             </div>
         </div>
