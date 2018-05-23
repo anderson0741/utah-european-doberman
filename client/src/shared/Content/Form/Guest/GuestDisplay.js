@@ -4,7 +4,7 @@ import loading from './loading.gif';
 // import loading from '../../../../images/farm.jpg';
 
 export default class GuestDisplay extends Component {
-    componentDidMount(){
+    componentDidMount() {
         console.log(this.props.listings);
     }
     render() {
