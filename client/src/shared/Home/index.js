@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
-import About from '../About/About'
+import About from '../About/About';
+// import Video from './video';
+import {Player} from 'video-react';
 
 function Home(props) {
     return (
@@ -24,7 +26,7 @@ function Home(props) {
                     <a href="dogs" className="shopCars cons1">
                         <h1>Puppies</h1>
                     </a>
-                    <a className="aboutSelector cons1" href="/about">
+                    <a className="aboutSelector cons1" href="/history">
                         <h1>History</h1>
                     </a>
                     <a href="contact" className="location consTitle">

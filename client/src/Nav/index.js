@@ -17,7 +17,7 @@ class Nav extends Component {
                     </div>
                     <div className="navSet">
                         <a className='linkz' href="/">Home</a>
-                        <a className='linkz' href="/about">History</a>
+                        <a className='linkz' href="/history">History</a>
                         <a className='linkz' href="/dogs">Dogs</a>
                         <a className='linkz' href="https://europeandobes.netlify.com/">Reserve Your Dog</a>
                         <a className='linkz' href="/contact">Contact Us</a>
@@ -34,7 +34,7 @@ class Nav extends Component {
 
                             <ul className="menu">
                                 <a className="navLink" href="/"><li>Home</li></a>
-                                <a className="navLink" href="/about"><li>History</li></a>
+                                <a className="navLink" href="/history"><li>History</li></a>
                                 <a className="navLink" href="/dogs"><li>Dogs</li></a>
                                 <a className="navLink" href="https://europeandobes.netlify.com/"><li>Reserve Your Dog</li></a>
                                 <a className="navLink" href="/contact" target="_blank"><li>Contact Us</li></a>
